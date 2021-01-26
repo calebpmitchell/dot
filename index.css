@@ -1,0 +1,65 @@
+.banner {
+    font-size: x-small;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-family: 'Source Code Pro', monospace;
+}
+#headshot {
+    height: 340px;
+    width: 340px;
+}
+
+#name {
+    font-size: x-large;
+    color: black;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+}
+.bio {
+    font-family: 'Source Code Pro', monospace;
+    font-size: xx-large;
+    font-weight: 100;
+    padding-right: 60px;
+    color: blue;
+    
+
+}
+#headshotcap {
+    font-family: 'Source Code Pro', monospace;
+    font-size: small;
+}
+
+
+.header li {
+    display: inline-block;
+  }
+.body {
+    background-color: rgb(233, 233, 233);
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+  }
+  #content {
+    height: 100%;
+  }
+  #left {
+    float: left;
+    width: 40%;
+    background: red;
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+    padding: 0.5em;
+  }
+  #right {
+    float: left;
+    width: 60%;
+    background: blue;
+    height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+    padding: 0.5em;
+  }
